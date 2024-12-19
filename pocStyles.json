@@ -2,65 +2,66 @@
   "global": {
     "fontFamilies": {
       "source-sans-pro": {
-        "value": "Source Sans Pro",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Source Sans Pro"
       },
       "roboto": {
-        "value": "Roboto",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Roboto"
       }
     },
     "lineHeights": {
       "auto": {
-        "value": "AUTO",
-        "type": "lineHeights"
+        "$type": "lineHeights",
+        "$value": "AUTO"
       },
       "150%": {
-        "value": "150%",
-        "type": "lineHeights"
+        "$type": "lineHeights",
+        "$value": "150%"
       },
       "125%": {
-        "value": "125%",
-        "type": "lineHeights"
+        "$type": "lineHeights",
+        "$value": "125%"
       }
     },
     "fontSize": {
       "sm": {
-        "value": "{fontSize.rem} *0.875",
-        "type": "fontSizes"
+        "$type": "fontSizes",
+        "$value": "{fontSize.rem} *0.875"
       },
       "rem": {
-        "value": "16",
-        "type": "fontSizes"
+        "$type": "fontSizes",
+        "$value": "16"
       },
       "lg": {
-        "value": "{fontSize.rem} *1.125",
-        "type": "fontSizes"
+        "$type": "fontSizes",
+        "$value": "{fontSize.rem} *1.125"
       },
       "title": {
-        "value": "{fontSize.rem} *2.063",
-        "type": "fontSizes"
+        "$type": "fontSizes",
+        "$value": "{fontSize.rem} *2.063"
       },
       "xs": {
-        "value": "{fontSize.rem} *0.75",
-        "type": "fontSizes"
+        "$type": "fontSizes",
+        "$value": "{fontSize.rem} *0.75"
       }
     },
     "letterSpacing": {
       "0": {
-        "value": "0%",
-        "type": "letterSpacing"
+        "$type": "letterSpacing",
+        "$value": "0%"
       }
     },
     "paragraphSpacing": {
       "0": {
-        "value": "0",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "0"
       }
     },
     "Header": {
       "H1": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.source-sans-pro}",
           "fontWeight": "{normal}",
           "lineHeight": "{lineHeights.auto}",
@@ -70,11 +71,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "H2": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.source-sans-pro}",
           "fontWeight": "{semibold}",
           "lineHeight": "{lineHeights.auto}",
@@ -84,11 +85,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "H3": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.source-sans-pro}",
           "fontWeight": "{semibold}",
           "lineHeight": "{lineHeights.auto}",
@@ -98,11 +99,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "H4": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.source-sans-pro}",
           "fontWeight": "{semibold}",
           "lineHeight": "{lineHeights.auto}",
@@ -112,12 +113,12 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       }
     },
     "p": {
-      "value": {
+      "$type": "typography",
+      "$value": {
         "fontFamily": "{fontFamilies.roboto}",
         "fontWeight": "{normal}",
         "lineHeight": "{lineHeights.auto}",
@@ -127,12 +128,12 @@
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}"
-      },
-      "type": "typography"
+      }
     },
     "text": {
       "base": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{normal}",
           "lineHeight": "{lineHeights.150%}",
@@ -142,11 +143,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{normal}",
           "lineHeight": "{lineHeights.125%}",
@@ -156,11 +157,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "xs": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{normal}",
           "lineHeight": "{lineHeights.auto}",
@@ -170,55 +171,55 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       }
     },
     "textCase": {
       "none": {
-        "value": "none",
-        "type": "textCase"
+        "$type": "textCase",
+        "$value": "none"
       }
     },
     "textDecoration": {
       "none": {
-        "value": "none",
-        "type": "textDecoration"
+        "$type": "textDecoration",
+        "$value": "none"
       }
     },
     "paragraphIndent": {
       "0": {
-        "value": "0px",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "0px"
       }
     },
     "medium": {
-      "value": "500",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "500"
     },
     "semibold": {
-      "value": "600",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "600"
     },
     "bold": {
-      "value": "700",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "700"
     },
     "normal": {
-      "value": "400",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "400"
     },
     "light": {
-      "value": "300",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "300"
     },
     "black": {
-      "value": "900",
-      "type": "fontWeights"
+      "$type": "fontWeights",
+      "$value": "900"
     },
     "link": {
       "base": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{medium}",
           "lineHeight": "{lineHeights.150%}",
@@ -228,11 +229,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "sm": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{medium}",
           "lineHeight": "{lineHeights.125%}",
@@ -242,11 +243,11 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       },
       "xs": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{medium}",
           "lineHeight": "{lineHeights.auto}",
@@ -256,8 +257,7 @@
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
+        }
       }
     }
   },
