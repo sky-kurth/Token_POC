@@ -93,7 +93,7 @@
           "fontFamily": "{fontFamilies.source-sans-pro}",
           "fontWeight": "{semibold}",
           "lineHeight": "{lineHeights.auto}",
-          "fontSize": "{fontSize.rem}",
+          "fontSize": "{fontSize.lg}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
