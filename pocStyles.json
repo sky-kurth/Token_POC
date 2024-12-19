@@ -31,7 +31,7 @@
       },
       "rem": {
         "$type": "fontSizes",
-        "$value": "18"
+        "$value": "16"
       },
       "lg": {
         "$type": "fontSizes",
